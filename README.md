@@ -1,6 +1,20 @@
 <h1 align="center">🩺 AI-Powered Health Risk Profiler</h1> <p align="center"> An AI-powered backend service that analyzes lifestyle survey responses (text or scanned images) and generates a structured health risk profile including risk factors, risk level, and actionable recommendations. </p> <p align="center"> This project demonstrates OCR processing, semantic normalization, risk scoring, guardrails for incomplete data, and AI-driven recommendation generation. </p>
 <h2>🚀 Features</h2> <ul> <li>📄 Accepts text and scanned image survey inputs</li> <li>🔍 OCR + AI semantic normalization</li> <li>⚠️ Guardrails for incomplete profiles</li> <li>📊 Risk scoring with rationale</li> <li>🧠 AI-generated actionable recommendations</li> <li>🌐 Public API exposure using ngrok</li> <li>📦 Modular, industry-standard backend architecture</li> </ul>
-<h2>🏗 Architecture</h2> <p><b>Project Folder Structure</b></p> <pre> 📦 Project Root │ ├── src/ │ ├── controllers/ │ ├── routes/ │ ├── services/ │ ├── pipeline/ │ ├── utils/ │ └── server.js │ ├── assets/ │ └── survey_form.jpg │ ├── .env └── package.json </pre>
+<h2>🏗 Architecture</h2> 
+src/
+ ├── controllers/
+ ├── routes/
+ ├── services/
+ ├── pipeline/
+ ├── utils/
+ ├── server.js
+
+assets/
+ ├── survey_form.jpg
+
+.env
+package.json
+
 <h3>📂 Folder Responsibilities</h3> <ul> <li><b>controllers</b> → API request handling</li> <li><b>routes</b> → API route definitions</li> <li><b>services</b> → Business logic and AI integrations</li> <li><b>pipeline</b> → Risk analysis processing stages</li> <li><b>utils</b> → Helper utilities</li> <li><b>server.js</b> → Application entry point</li> <li><b>assets</b> → OCR input images</li> </ul> <h3>
 <h3>🔄 Pipeline Flow</h3> <p align="center">
 
@@ -56,14 +70,8 @@ Copy the generated HTTPS URL.
 All outputs remain non-diagnostic.
 
 📸 API Screenshots
-High Risk Text Input
-media/screenshots/text-test-low-risk.png
-Low Risk Text Input
-media/screenshots/image-test.png
-Image OCR Input
-media/screenshots/image-test.png
-Guardrail Trigger Case
-media/screenshots/guardrail.png
+### High Risk Text Input ![High Risk Text](media/screenshots/text-test-high-risk.png) --- ### Low Risk Text Input ![Low Risk Text](media/screenshots/text-test-low-risk.png) --- ### Image OCR Input ![Image OCR](media/screenshots/image-test.png) --- ### Guardrail Trigger Case ![Guardrail](media/screenshots/guardrail.png)
+
 🎥 Demo Videos
 
 Text API Demo Video link: https://drive.google.com/file/d/15zo8U9xt9DwT7nFi1ZdJ3znsv0hA98qO/view?usp=sharing

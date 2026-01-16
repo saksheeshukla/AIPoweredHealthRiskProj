@@ -1,0 +1,21 @@
+{
+  "name": "health-risk-profiler",
+  "version": "1.0.0",
+  "description": "AI Powered Health Risk Profiler",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^1.37.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "multer": "^2.0.2",
+    "ngrok": "^5.0.0-beta.2",
+    "zod": "^4.3.5"
+  }
+}

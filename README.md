@@ -20,7 +20,10 @@ This project demonstrates OCR processing, semantic normalization, risk scoring, 
 
 📦 Modular, industry-standard backend architecture
 
+
+
 🏗 Architecture
+
 src/
  ├── controllers/
  ├── routes/
@@ -28,14 +31,13 @@ src/
  ├── pipeline/
  ├── utils/
  ├── server.js
-
 assets/
  ├── survey_form.jpg
-
 .env
 package.json
 
 Pipeline Flow
+
 Input → OCR/Text Parsing → Normalization → Factor Extraction
       → Confidence & Guardrails → Risk Scoring → Recommendations
 
@@ -73,7 +75,6 @@ https://postmedian-nonsubordinate-adriane.ngrok-free.dev
 
 ⚠️ Note: ngrok URLs are temporary. Refer to screen recording for live demo.
 
-🧪 Test Cases
 🧪 Test Case 1 — High Risk
 {
   "input": "He is 45 years old, smokes daily, eats sugary food, never exercises and drinks alcohol regularly."
@@ -110,8 +111,11 @@ curl -X POST https://YOUR_NGROK_URL/analyze/text \
 -H "Content-Type: application/json" \
 -d '{"input":"He is 25."}'
 
-🖼 Image API
+
+
 POST /analyze/image
+
+Curl
 curl -X POST https://YOUR_NGROK_URL/analyze/image \
 -F "file=@assets/survey_form.jpg"
 
@@ -140,10 +144,14 @@ curl -X POST https://YOUR_NGROK_URL/analyze/image \
 }
 
 🛑 Guardrail Example
+
 Input
+
 He is 25.
 
+
 Output
+
 {
   "status": "incomplete_profile",
   "reason": ">50% fields missing"
@@ -170,14 +178,32 @@ Validation and chaining
 
 All outputs remain non-diagnostic.
 
-📸 API Screenshots
-### High Risk Text Input ![High Risk Text](media/screenshots/text-test-high-risk.png) --- ### Low Risk Text Input ![Low Risk Text](media/screenshots/text-test-low-risk.png) --- ### Image OCR Input ![Image OCR](media/screenshots/image-test.png) --- ### Guardrail Trigger Case ![Guardrail](media/screenshots/guardrail.png)
+## 📸 API Screenshots
 
-🎥 Demo Videos
+### High Risk Text Input
+![High Risk Text](media/screenshots/text-test-high-risk.png)
 
-Text API Demo Video link: https://drive.google.com/file/d/15zo8U9xt9DwT7nFi1ZdJ3znsv0hA98qO/view?usp=sharing
+---
 
-OCR API Demo Video link: https://drive.google.com/file/d/1BGD_KtAw-RU2125McJTp_Fdh_6WwaUwF/view?usp=sharing
+### Low Risk Text Input
+![Low Risk Text](media/screenshots/text-test-low-risk.png)
+
+---
+
+### Image OCR Input
+![Image OCR](media/screenshots/image-test.png)
+
+---
+
+### Guardrail Trigger Case
+![Guardrail](media/screenshots/guardrail.png)
+
+
+## 🎥 Demo Videos
+
+- Text API Demo Video link:https://drive.google.com/file/d/15zo8U9xt9DwT7nFi1ZdJ3znsv0hA98qO/view?usp=sharing
+- OCR API Demo Video link: https://drive.google.com/file/d/1BGD_KtAw-RU2125McJTp_Fdh_6WwaUwF/view?usp=sharing
+
 
 A short screen recording demonstrates:
 

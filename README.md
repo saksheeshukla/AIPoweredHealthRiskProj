@@ -1,5 +1,4 @@
-🩺 AI-Powered Health Risk Profiler
-
+<h1>🩺 AI-Powered Health Risk Profiler</h1>
 An AI-powered backend service that analyzes lifestyle survey responses (text or scanned images) and generates a structured health risk profile including risk factors, risk level, and actionable recommendations.
 
 This project demonstrates OCR processing, semantic normalization, risk scoring, guardrails for incomplete data, and AI-driven recommendation generation.

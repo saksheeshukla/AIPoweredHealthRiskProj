@@ -201,8 +201,8 @@ All outputs remain non-diagnostic.
 
 ## 🎥 Demo Videos
 
-- [Text API Demo Video link]:https://drive.google.com/file/d/15zo8U9xt9DwT7nFi1ZdJ3znsv0hA98qO/view?usp=sharing
-- [OCR API Demo Video link]: https://drive.google.com/file/d/1BGD_KtAw-RU2125McJTp_Fdh_6WwaUwF/view?usp=sharing
+- Text API Demo Video link:https://drive.google.com/file/d/15zo8U9xt9DwT7nFi1ZdJ3znsv0hA98qO/view?usp=sharing
+- OCR API Demo Video link: https://drive.google.com/file/d/1BGD_KtAw-RU2125McJTp_Fdh_6WwaUwF/view?usp=sharing
 
 
 A short screen recording demonstrates:

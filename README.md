@@ -1,6 +1,6 @@
 <h1 align="center">🩺 AI-Powered Health Risk Profiler</h1> <p align="center"> An AI-powered backend service that analyzes lifestyle survey responses (text or scanned images) and generates a structured health risk profile including risk factors, risk level, and actionable recommendations. </p> <p align="center"> This project demonstrates OCR processing, semantic normalization, risk scoring, guardrails for incomplete data, and AI-driven recommendation generation. </p>
 <h2>🚀 Features</h2> <ul> <li>📄 Accepts text and scanned image survey inputs</li> <li>🔍 OCR + AI semantic normalization</li> <li>⚠️ Guardrails for incomplete profiles</li> <li>📊 Risk scoring with rationale</li> <li>🧠 AI-generated actionable recommendations</li> <li>🌐 Public API exposure using ngrok</li> <li>📦 Modular, industry-standard backend architecture</li> </ul>
-## 🏗 Architecture
+<h2>🏗 Architecture</h2> 
 
 ```text
 src/
@@ -74,7 +74,7 @@ Copy the generated HTTPS URL.
 All outputs remain non-diagnostic.
 
 📸 API Screenshots
-### High Risk Text Input ![High Risk Text](media/screenshots/text-test-high-risk.png) --- ### Low Risk Text Input ![Low Risk Text](media/screenshots/text-test-low-risk.png) --- ### Image OCR Input ![Image OCR](media/screenshots/image-test.png) --- ### Guardrail Trigger Case ![Guardrail](media/screenshots/guardrail.png)
+### High Risk Text Input     ![High Risk Text](media/screenshots/text-test-high-risk.png) --- ### Low Risk Text Input ![Low Risk Text](media/screenshots/text-test-low-risk.png) --- ### Image OCR Input ![Image OCR](media/screenshots/image-test.png) --- ### Guardrail Trigger Case ![Guardrail](media/screenshots/guardrail.png)
 
 🎥 Demo Videos
 

@@ -99,8 +99,6 @@ All outputs remain non-diagnostic.
 <h3>Text API Demo Video link</h3>
 https://drive.google.com/file/d/15zo8U9xt9DwT7nFi1ZdJ3znsv0hA98qO/view?usp=sharing
 
-<br/>
-
 <h3>OCR API Demo Video link</h3>
 https://drive.google.com/file/d/1BGD_KtAw-RU2125McJTp_Fdh_6WwaUwF/view?usp=sharing
 
@@ -115,6 +113,7 @@ A short screen recording demonstrates:
 <li>Image OCR test</li>
 <li>JSON output</li>
 </ul>
+
 
 
 <h2>🧩 Error Handling</h2> <ul> <li>Missing input validation</li> <li>OCR fallback checks</li> <li>Guardrail enforcement</li> <li>AI response validation</li> </ul>

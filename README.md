@@ -73,26 +73,27 @@ Copy the generated HTTPS URL.
 
 All outputs remain non-diagnostic.
 
-📸 API Screenshots
+<h2>📸 API Screenshots</h2>
 ### High Risk Text Input     ![High Risk Text](media/screenshots/text-test-high-risk.png) --- ### Low Risk Text Input ![Low Risk Text](media/screenshots/text-test-low-risk.png) --- ### Image OCR Input ![Image OCR](media/screenshots/image-test.png) --- ### Guardrail Trigger Case ![Guardrail](media/screenshots/guardrail.png)
 
-🎥 Demo Videos
+<h2>🎥 Demo Videos</h2>
 
-Text API Demo Video link: https://drive.google.com/file/d/15zo8U9xt9DwT7nFi1ZdJ3znsv0hA98qO/view?usp=sharing
+<h1>Text API Demo Video link</h1>: https://drive.google.com/file/d/15zo8U9xt9DwT7nFi1ZdJ3znsv0hA98qO/view?usp=sharing
 
-OCR API Demo Video link: https://drive.google.com/file/d/1BGD_KtAw-RU2125McJTp_Fdh_6WwaUwF/view?usp=sharing
+<h1>OCR API Demo Video link</h1>: https://drive.google.com/file/d/1BGD_KtAw-RU2125McJTp_Fdh_6WwaUwF/view?usp=sharing
 
 A short screen recording demonstrates:
 
-Server running
+<ul><li>Server running</li>
 
-ngrok public URL
+<li>ngrok public URL</li>
 
-Text API test
+<li>Text API test</li>
 
-Image OCR test
+<li>Image OCR test</li>
 
-JSON output
+<li>JSON output</li>
+</ul>
 
 <h2>🧩 Error Handling</h2> <ul> <li>Missing input validation</li> <li>OCR fallback checks</li> <li>Guardrail enforcement</li> <li>AI response validation</li> </ul>
 <h2>📈 Future Improvements</h2> <ul> <li>Database persistence</li> <li>User history tracking</li> <li>Dashboard UI</li> <li>Batch processing</li> <li>Multilingual OCR</li> </ul>

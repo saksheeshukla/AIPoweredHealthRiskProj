@@ -96,24 +96,26 @@ All outputs remain non-diagnostic.
 
 <h2>🎥 Demo Videos</h2>
 
-<h3>Text API Demo Video link</h3>: https://drive.google.com/file/d/15zo8U9xt9DwT7nFi1ZdJ3znsv0hA98qO/view?usp=sharing
+<h3>Text API Demo Video link</h3>
+https://drive.google.com/file/d/15zo8U9xt9DwT7nFi1ZdJ3znsv0hA98qO/view?usp=sharing
 
-<h3>OCR API Demo Video link</h3>: https://drive.google.com/file/d/1BGD_KtAw-RU2125McJTp_Fdh_6WwaUwF/view?usp=sharing
+<br/>
 
-</br>
+<h3>OCR API Demo Video link</h3>
+https://drive.google.com/file/d/1BGD_KtAw-RU2125McJTp_Fdh_6WwaUwF/view?usp=sharing
+
+<br/>
 
 A short screen recording demonstrates:
 
-<ul><li>Server running</li>
-
+<ul>
+<li>Server running</li>
 <li>ngrok public URL</li>
-
 <li>Text API test</li>
-
 <li>Image OCR test</li>
-
 <li>JSON output</li>
 </ul>
+
 
 <h2>🧩 Error Handling</h2> <ul> <li>Missing input validation</li> <li>OCR fallback checks</li> <li>Guardrail enforcement</li> <li>AI response validation</li> </ul>
 <h2>📈 Future Improvements</h2> <ul> <li>Database persistence</li> <li>User history tracking</li> <li>Dashboard UI</li> <li>Batch processing</li> <li>Multilingual OCR</li> </ul>

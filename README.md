@@ -74,13 +74,33 @@ Copy the generated HTTPS URL.
 All outputs remain non-diagnostic.
 
 <h2>📸 API Screenshots</h2>
-### High Risk Text Input     ![High Risk Text](media/screenshots/text-test-high-risk.png) --- ### Low Risk Text Input ![Low Risk Text](media/screenshots/text-test-low-risk.png) --- ### Image OCR Input ![Image OCR](media/screenshots/image-test.png) --- ### Guardrail Trigger Case ![Guardrail](media/screenshots/guardrail.png)
+
+### High Risk Text Input
+![High Risk Text](media/screenshots/text-test-high-risk.png)
+
+---
+
+### Low Risk Text Input
+![Low Risk Text](media/screenshots/text-test-low-risk.png)
+
+---
+
+### Image OCR Input
+![Image OCR](media/screenshots/image-test.png)
+
+---
+
+### Guardrail Trigger Case
+![Guardrail](media/screenshots/guardrail.png)
+
 
 <h2>🎥 Demo Videos</h2>
 
-<h1>Text API Demo Video link</h1>: https://drive.google.com/file/d/15zo8U9xt9DwT7nFi1ZdJ3znsv0hA98qO/view?usp=sharing
+<h3>Text API Demo Video link</h3>: https://drive.google.com/file/d/15zo8U9xt9DwT7nFi1ZdJ3znsv0hA98qO/view?usp=sharing
 
-<h1>OCR API Demo Video link</h1>: https://drive.google.com/file/d/1BGD_KtAw-RU2125McJTp_Fdh_6WwaUwF/view?usp=sharing
+<h3>OCR API Demo Video link</h3>: https://drive.google.com/file/d/1BGD_KtAw-RU2125McJTp_Fdh_6WwaUwF/view?usp=sharing
+
+</br>
 
 A short screen recording demonstrates:
 
